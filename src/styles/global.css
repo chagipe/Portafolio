@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* src/styles/global.css */
+html {
+scroll-behavior: smooth;
+}
+
+/* Mejora la selección de texto para que combine con tu marca */
+::selection {
+  background-color: rgba(254, 240, 138, 0.3); /* Amarillo suave como tu pulso */
+color: #fff;
+}

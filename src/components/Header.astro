@@ -1,0 +1,77 @@
+---
+const navItems = [
+    { title: "Inicio", label: "inicio", url: "#inicio" },
+    { title: "Experiencia", label: "experiencia", url: "#experiencia" },
+    { title: "Proyectos", label: "proyectos", url: "#proyectos" },
+    { title: "Sobre mí", label: "sobre-mi", url: "#sobre-mi" },
+];
+---
+
+<header class="fixed top-0 z-20 flex items-center justify-center w-full mt-5">
+    <nav class="flex px-4 py-1 text-sm font-semibold rounded-full bg-white/10 backdrop-blur-md border border-white/10 shadow-lg">
+        {
+            navItems.map((link) => (
+                <a 
+                    class="nav-link relative block px-3 py-2 transition text-white/70 hover:text-white" 
+                    aria-label={link.label}
+                    href={link.url}
+                >
+                    {link.title}
+                    <span class="absolute bottom-0 left-0 h-[2px] w-0 bg-blue-400 transition-all duration-300"></span>
+                </a>
+            ))
+        }
+    </nav>
+</header>
+
+<script>
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('section');
+
+    const updateActiveLink = () => {
+        let currentSectionId = "";
+        
+        // Determinamos qué sección está cruzando la línea de los 150px desde arriba
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (window.scrollY >= sectionTop - 150) {
+                currentSectionId = section.id;
+            }
+        });
+
+        // Caso especial: si estamos al final de la página, marcar "Sobre mí"
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 2) {
+            currentSectionId = "sobre-mi";
+        }
+
+        // Aplicamos los cambios visuales
+        navLinks.forEach((link) => {
+            const line = link.querySelector('span');
+            const href = link.getAttribute('href').replace('#', '');
+            
+            if (href === currentSectionId) {
+                link.classList.add('text-white');
+                link.classList.remove('text-white/50');
+                if (line) line.style.width = '100%';
+            } else {
+                link.classList.remove('text-white');
+                link.classList.add('text-white/50');
+                if (line) line.style.width = '0%';
+            }
+        });
+    };
+
+    // Ejecutar al hacer scroll y al cargar la página
+    window.addEventListener('scroll', updateActiveLink);
+    window.addEventListener('DOMContentLoaded', updateActiveLink);
+    // Ejecutar inmediatamente por si ya hay scroll
+    updateActiveLink();
+</script>
+
+<style>
+    /* Estilo para que el subrayado tenga un brillo suave */
+    .nav-link span {
+        box-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
+    }
+</style>
