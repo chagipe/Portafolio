@@ -1,6 +1,27 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import '../styles/global.css';
+
+
+const certificados = [
+    {
+        titulo: "ITIL V4 Foundation Certification Mastery Course 2026",
+        empresa: "Udemy",
+        imagen: "/itil-v4-foundations.jpg",
+        link: "https://udemy-certificate.s3.amazonaws.com/image/UC-1de17638-6686-4a77-be47-7095fe25176f.jpg?v=1771345567000"
+    },
+    {
+        titulo: "GOBERNANZA DIGITAL Y CIBERSEGURIDAD INSTITUCIONAL EN EL ESTADO",
+        empresa: "IPAPPG & Universidad Nacional San Luis Gonzaga de Ica",
+        imagen: "/ipappg-cyberseguridad.png",
+        link: "https://aula-ipappg.enppeduca.com/certificado/gobernanza-digital-y-ciberseguridad-institucional-en-el-estado/sebastian-hiroshi-begazo-kobayashi/386/14167"
+    },
+    {
+        titulo: "Próximamente",
+        empresa: "Próximamente",
+        imagen: "/proximamente.jpg",
+    }
+];
 ---
 
 <Layout>
@@ -100,7 +121,8 @@ import '../styles/global.css';
                         <li>Gestionar toda la infraestructura necesaria para su puesta en marcha y estabilidad.</li>
                     </ul>
                 </div>
-                                <div class="mb-12 relative pl-8" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="mb-12 relative pl-8" data-aos="fade-up" data-aos-delay="100">
                     <div class="absolute -left-[6.5px] top-[10px] h-3 w-3 rounded-full bg-gray-400 dark:bg-white/60 border border-white dark:border-[#050505] shadow-sm"></div>
                     <h3 class="text-xl font-bold text-black dark:text-white uppercase leading-tight">Técnico de centro de asistencia</h3>
                     <p class="text-sm font-normal text-gray-500 dark:text-gray-400 italic">ELYCE S.R.L MAYO 2019 — NOVIEMBRE 2021</p>
@@ -177,13 +199,34 @@ import '../styles/global.css';
 
             </div>
 
-            <h3 class="text-lg font-bold text-black/20 dark:text-white/30 mb-6 uppercase tracking-widest text-center md:text-left">Otros proyectos deseados</h3>
+            <h3 class="text-lg font-bold text-black/20 dark:text-white/30 mb-6 uppercase tracking-widest text-center md:text-left">Certificaciones</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4" data-aos="fade-up">
-                {[1, 2, 3].map((i) => (
-                    <div class="p-6 bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 rounded-2xl hover:bg-black/10 dark:hover:bg-white/10 transition group">
-                        <h4 class="font-bold text-black/80 dark:text-white mb-2 uppercase text-sm group-hover:text-orange-500 dark:group-hover:text-yellow-200 transition-colors">Deseado {i}</h4>
-                        <p class="text-xs text-gray-500 dark:text-gray-400 italic">Idea de proyecto en fase de planificación.</p>
-                    </div>
+                {certificados.map((cert) => (
+                    <a 
+                        href={cert.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="group relative overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 transition-all hover:-translate-y-1 hover:border-orange-500/50 dark:hover:border-yellow-200/50"
+                    >
+                        <div class="aspect-video w-full overflow-hidden bg-black/20">
+                            <img 
+                                src={cert.imagen} 
+                                alt={cert.titulo} 
+                                class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-70 group-hover:opacity-100"
+                            />
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-black/80 dark:text-white uppercase text-[11px] group-hover:text-orange-500 dark:group-hover:text-yellow-200 transition-colors leading-tight">
+                                {cert.titulo}
+                            </h4>
+                            <p class="text-[10px] text-gray-500 dark:text-gray-400 italic mt-1">
+                                {cert.empresa}
+                            </p>
+                        </div>
+                        <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-500 dark:text-yellow-200"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </div>
+                    </a>
                 ))}
             </div>
         </section>
