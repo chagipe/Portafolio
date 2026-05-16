@@ -9,6 +9,18 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Hiroshi's Portafolio",
   description: "Modern & Minimal JS Mastery Portfolio",
+  openGraph: {
+    title: "Hiroshi's Portafolio",
+    description: "Modern & Minimal JS Mastery Portfolio",
+    url: "https://portafolio-snowy-pi.vercel.app",
+    images: [
+      {
+        url: "/yo.jpg", // tu foto en public/
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
