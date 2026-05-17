@@ -7,20 +7,9 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hiroshi's Portafolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
-  openGraph: {
-    title: "Hiroshi's Portafolio",
-    description: "Modern & Minimal JS Mastery Portfolio",
-    url: "https://portafolio-snowy-pi.vercel.app",
-    images: [
-      {
-        url: "/yo.jpg", // tu foto en public/
-        width: 1200,
-        height: 630,
-      },
-    ],
-  },
+  title: "Hiroshi Begazo | Full Stack Developer",
+  description:
+    "Portafolio de Sebastian Hiroshi Begazo Kobayashi — Full Stack Developer especializado en React, Next.js, TypeScript y automatización con n8n.",
 };
 
 export default function RootLayout({
@@ -31,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/yo.jpg" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
