@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="readme_banner.png" alt="Sebastian Hiroshi Banner" width="100%">
+![Banner](https://raw.githubusercontent.com/chagipe/Portafolio/main/public/banner.svg)
 
 ### 🚀 **Sebastian Hiroshi Begazo Kobayashi**
 #### Full Stack Developer · IT Support Specialist · Lima, Perú 🇵🇪
