@@ -1,7 +1,6 @@
-![Banner](https://raw.githubusercontent.com/chagipe/Portafolio/main/public/banner.svg)
+<div align="center">
 
-### 🚀 **Sebastian Hiroshi Begazo Kobayashi**
-#### Full Stack Developer · IT Support Specialist · Lima, Perú 🇵🇪
+![Banner](https://raw.githubusercontent.com/chagipe/Portafolio/main/public/banner.svg)
 
 <br/>
 
@@ -19,20 +18,19 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-</div>
-
 ---
 
 ## ✨ ¿Qué es esto?
 
-> Portafolio personal construido desde cero con **Next.js 14**, **Framer Motion**, **Three.js** y **TailwindCSS**. Diseñado para dejar una impresión real — con animaciones fluidas, efectos 3D, un globo interactivo y secciones que cuentan quién soy y qué construyo.
+> Portafolio personal construido con **Next.js 14**, **Framer Motion**, **Three.js** y **TailwindCSS**.
+> Diseñado para dejar una impresión real — con animaciones fluidas, efectos 3D, un globo interactivo y secciones que cuentan quién soy y qué construyo.
 
 ---
 
 ## 🗂️ Secciones
 
 | Sección | Descripción |
-|---|---|
+|:---:|:---|
 | 🧠 **Hero** | Presentación con efecto spotlight y texto animado |
 | 📦 **Bento Grid** | Stack, disponibilidad, proyectos actuales y contacto rápido |
 | 🛠️ **Proyectos** | Cards 3D con mis proyectos reales y links directos |
@@ -47,9 +45,10 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 🛒 Sistema de Ventas e Inventario
+
 Plataforma full stack con **dashboard en tiempo real**, punto de venta (POS), gestión de inventario y reportes. Desplegada en Vercel con PostgreSQL.
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -60,9 +59,10 @@ Plataforma full stack con **dashboard en tiempo real**, punto de venta (POS), ge
 🔗 [Ver repositorio](https://github.com/chagipe/sistema-ventas)
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
 ### 🎫 ChagiControl
+
 Sistema de **tickets para Soporte Técnico L1** con alertas sonoras para emergencias, filtro dinámico, asignación de técnicos y panel en modo oscuro.
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -99,10 +99,10 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador 🚀
 ## 💼 Experiencia
 
 ```
-🏢 Técnico de Soporte TI     →  Ponte di Pietro Inmobiliaria  (Jun. 2025 - actualidad)
-💻 Desarrollador de Software  →  Autónomo                      (Ene. 2023 - actualidad)
-🔧 Técnico de Asistencia      →  ELYCE S.R.L                   (May. 2019 - Nov. 2021)
-⚡ Automatización con n8n     →  Aprendizaje continuo           (En progreso)
+🏢 Técnico de Soporte TI      →  Ponte di Pietro Inmobiliaria  (Jun. 2025 - actualidad)
+💻 Desarrollador de Software   →  Autónomo                      (Ene. 2023 - actualidad)
+🔧 Técnico de Asistencia       →  ELYCE S.R.L                   (May. 2019 - Nov. 2021)
+⚡ Automatización con n8n      →  Aprendizaje continuo           (En progreso)
 ```
 
 ---
@@ -110,16 +110,14 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador 🚀
 ## ⚙️ Tech Stack Completo
 
 ```
-Frontend    →  React · Next.js · Vue · TailwindCSS · TypeScript
-Backend     →  Node.js · Express · Python
-Base Datos  →  PostgreSQL · pgAdmin
-Herramientas → Vite · Git · n8n · Docker
-Mobile      →  React Native
+Frontend     →  React · Next.js · Vue · TailwindCSS · TypeScript
+Backend      →  Node.js · Express · Python
+Base Datos   →  PostgreSQL · pgAdmin
+Herramientas →  Vite · Git · n8n · Docker
+Mobile       →  React Native
 ```
 
 ---
-
-<div align="center">
 
 **Construido con 💜 desde Lima, Perú**
 
