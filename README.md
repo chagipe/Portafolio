@@ -23,7 +23,7 @@
 ## ✨ ¿Qué es esto?
 
 > Portafolio personal construido con **Next.js 14**, **Framer Motion**, **Three.js** y **TailwindCSS**.
-> Diseñado para dejar una impresión real — con animaciones fluidas, efectos 3D, un globo interactivo y secciones que cuentan quién soy y qué construyo.
+> Animaciones fluidas, efectos 3D, globo interactivo y secciones que cuentan quién soy y qué construyo.
 
 ---
 
@@ -49,7 +49,7 @@
 
 ### 🛒 Sistema de Ventas e Inventario
 
-Plataforma full stack con **dashboard en tiempo real**, punto de venta (POS), gestión de inventario y reportes. Desplegada en Vercel con PostgreSQL.
+Plataforma full stack con **dashboard en tiempo real**, punto de venta (POS), gestión de inventario y reportes.
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -63,7 +63,7 @@ Plataforma full stack con **dashboard en tiempo real**, punto de venta (POS), ge
 
 ### 🎫 ChagiControl
 
-Sistema de **tickets para Soporte Técnico L1** con alertas sonoras para emergencias, filtro dinámico, asignación de técnicos y panel en modo oscuro.
+Sistema de **tickets para Soporte Técnico L1** con alertas sonoras, filtro dinámico y asignación de técnicos.
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -81,14 +81,9 @@ Sistema de **tickets para Soporte Técnico L1** con alertas sonoras para emergen
 ## 🤸 Inicio Rápido
 
 ```bash
-# Clonar el repositorio
 git clone https://github.com/chagipe/Portafolio.git
 cd Portafolio
-
-# Instalar dependencias
 npm install
-
-# Correr en desarrollo
 npm run dev
 ```
 
@@ -98,24 +93,24 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador 🚀
 
 ## 💼 Experiencia
 
-```
-🏢 Técnico de Soporte TI      →  Ponte di Pietro Inmobiliaria  (Jun. 2025 - actualidad)
-💻 Desarrollador de Software   →  Autónomo                      (Ene. 2023 - actualidad)
-🔧 Técnico de Asistencia       →  ELYCE S.R.L                   (May. 2019 - Nov. 2021)
-⚡ Automatización con n8n      →  Aprendizaje continuo           (En progreso)
-```
+| Rol | Empresa | Período |
+|:---:|:---:|:---:|
+| 🏢 Técnico de Soporte TI | Ponte di Pietro Inmobiliaria | Jun. 2025 - actualidad |
+| 💻 Desarrollador de Software | Autónomo | Ene. 2023 - actualidad |
+| 🔧 Técnico de Asistencia | ELYCE S.R.L | May. 2019 - Nov. 2021 |
+| ⚡ Automatización con n8n | Aprendizaje continuo | En progreso |
 
 ---
 
-## ⚙️ Tech Stack Completo
+## ⚙️ Tech Stack
 
-```
-Frontend     →  React · Next.js · Vue · TailwindCSS · TypeScript
-Backend      →  Node.js · Express · Python
-Base Datos   →  PostgreSQL · pgAdmin
-Herramientas →  Vite · Git · n8n · Docker
-Mobile       →  React Native
-```
+| Área | Tecnologías |
+|:---:|:---:|
+| Frontend | React · Next.js · Vue · TailwindCSS · TypeScript |
+| Backend | Node.js · Express · Python |
+| Base de Datos | PostgreSQL · pgAdmin |
+| Herramientas | Vite · Git · n8n · Docker |
+| Mobile | React Native |
 
 ---
 
