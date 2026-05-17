@@ -1,13 +1,5 @@
 <div align="center">
-
-```
-██╗  ██╗██╗██████╗  ██████╗ ███████╗██╗  ██╗██╗
-██║  ██║██║██╔══██╗██╔═══██╗██╔════╝██║  ██║██║
-███████║██║██████╔╝██║   ██║███████╗███████║██║
-██╔══██║██║██╔══██╗██║   ██║╚════██║██╔══██║██║
-██║  ██║██║██║  ██║╚██████╔╝███████║██║  ██║██║
-╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝
-```
+  <img src="readme_banner.png" alt="Sebastian Hiroshi Banner" width="100%">
 
 ### 🚀 **Sebastian Hiroshi Begazo Kobayashi**
 #### Full Stack Developer · IT Support Specialist · Lima, Perú 🇵🇪
