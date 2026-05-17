@@ -1,125 +1,137 @@
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logoColor=white&logo=postgresql&color=4169E1" alt="postgresql" />
-  </div>
+<div align="center">
 
-  <h3 align="center">Portafolio Personal — Sebastian Hiroshi Begazo Kobayashi</h3>
+```
+██╗  ██╗██╗██████╗  ██████╗ ███████╗██╗  ██╗██╗
+██║  ██║██║██╔══██╗██╔═══██╗██╔════╝██║  ██║██║
+███████║██║██████╔╝██║   ██║███████╗███████║██║
+██╔══██║██║██╔══██╗██║   ██║╚════██║██╔══██║██║
+██║  ██║██║██║  ██║╚██████╔╝███████║██║  ██║██║
+╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝
+```
 
-  <div align="center">
-    Desarrollador Full Stack con experiencia en automatización, soporte TI y construcción de sistemas escalables.
-    <br />
-    <a href="https://www.linkedin.com/in/sebastian-hiroshi-begazo-kobayashi-627190211" target="_blank"><b>LinkedIn</b></a> ·
-    <a href="https://github.com/chagipe" target="_blank"><b>GitHub</b></a>
-  </div>
+### 🚀 **Sebastian Hiroshi Begazo Kobayashi**
+#### Full Stack Developer · IT Support Specialist · Lima, Perú 🇵🇪
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/🌐_Ver_Portafolio-000000?style=for-the-badge)](https://portafolio-snowy-pi.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebastian-hiroshi-begazo-kobayashi-627190211)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sebastianbegazo@gmail.com)
+
+<br/>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
 </div>
 
-## 📋 Tabla de Contenidos
+---
 
-1. 🤖 [Introducción](#introducción)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Características](#características)
-4. 🤸 [Inicio Rápido](#inicio-rápido)
-5. 📁 [Proyectos Destacados](#proyectos-destacados)
+## ✨ ¿Qué es esto?
 
-## 🤖 Introducción
+> Portafolio personal construido desde cero con **Next.js 14**, **Framer Motion**, **Three.js** y **TailwindCSS**. Diseñado para dejar una impresión real — con animaciones fluidas, efectos 3D, un globo interactivo y secciones que cuentan quién soy y qué construyo.
 
-Portafolio personal construido con Next.js, Framer Motion y TailwindCSS. Presenta mis proyectos, experiencia profesional y stack tecnológico de forma interactiva y moderna.
+---
 
-Incluye efectos 3D, animaciones fluidas, un globo interactivo estilo GitHub, y secciones de testimonios, experiencia laboral y contacto directo.
+## 🗂️ Secciones
 
-## ⚙️ Tech Stack
+| Sección | Descripción |
+|---|---|
+| 🧠 **Hero** | Presentación con efecto spotlight y texto animado |
+| 📦 **Bento Grid** | Stack, disponibilidad, proyectos actuales y contacto rápido |
+| 🛠️ **Proyectos** | Cards 3D con mis proyectos reales y links directos |
+| 💬 **Referencias** | Testimonios de compañeros y clientes con scroll infinito |
+| 💼 **Experiencia** | Historial profesional con íconos animados |
+| 🔄 **Enfoque** | Mi proceso de trabajo en 3 fases con Canvas Effect |
+| 📬 **Contacto** | Email copiable con animación confetti + redes sociales |
 
-- **Next.js 14**
-- **TypeScript**
-- **Framer Motion**
-- **TailwindCSS**
-- **Three.js / React Three Fiber**
-- **PostgreSQL**
-- **Vite**
-- **n8n** (automatización)
-
-## 🔋 Características
-
-👉 **Hero**: Introducción con efecto spotlight y fondo animado.
-
-👉 **Bento Grid**: Layout moderno con información personal usando técnicas avanzadas de CSS.
-
-👉 **Elementos 3D**: Globo interactivo estilo GitHub y efectos hover en las cards.
-
-👉 **Proyectos Reales**: Sistema de Ventas e Inventario y ChagiControl — Gestión de Tickets de Soporte.
-
-👉 **Referencias**: Testimonios de compañeros y clientes reales con scroll animado.
-
-👉 **Experiencia Laboral**: Historial profesional con íconos animados.
-
-👉 **Canvas Effect**: Efectos visuales en la sección de enfoque usando HTML5 Canvas.
-
-👉 **Responsivo**: Adaptable a todos los dispositivos.
-
-👉 **Copiar Email**: Botón para copiar el email directamente con animación confetti.
-
-## 🤸 Inicio Rápido
-
-**Prerrequisitos**
-
-Asegúrate de tener instalado:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)
-
-**Clonar el repositorio**
-
-```bash
-git clone https://github.com/chagipe/Portafolio.git
-cd Portafolio
-```
-
-**Instalar dependencias**
-
-```bash
-npm install
-```
-
-**Correr el proyecto**
-
-```bash
-npm run dev
-```
-
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+---
 
 ## 📁 Proyectos Destacados
 
+<table>
+<tr>
+<td width="50%">
+
 ### 🛒 Sistema de Ventas e Inventario
+Plataforma full stack con **dashboard en tiempo real**, punto de venta (POS), gestión de inventario y reportes. Desplegada en Vercel con PostgreSQL.
 
-Plataforma full stack con dashboard en tiempo real, punto de venta (POS), gestión de inventario y reportes. Desplegada en Vercel con PostgreSQL como base de datos.
-
-**Stack:** React · TypeScript · Vite · TailwindCSS · PostgreSQL
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 🔗 [Ver repositorio](https://github.com/chagipe/sistema-ventas)
 
----
+</td>
+<td width="50%">
 
-### 🎫 ChagiControl — Gestión de Tickets de Soporte
+### 🎫 ChagiControl
+Sistema de **tickets para Soporte Técnico L1** con alertas sonoras para emergencias, filtro dinámico, asignación de técnicos y panel en modo oscuro.
 
-Sistema de tickets para Soporte Técnico L1 con alertas sonoras para emergencias, filtro dinámico, asignación de técnicos y panel de control visual en modo oscuro.
-
-**Stack:** React · TypeScript · JavaScript · TailwindCSS
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 🔗 [Ver repositorio](https://github.com/chagipe/chagi-control)
 
+</td>
+</tr>
+</table>
+
 ---
 
-## 👤 Autor
+## 🤸 Inicio Rápido
 
-**Sebastian Hiroshi Begazo Kobayashi**  
-Full Stack Developer | IT Support Specialist  
-Lima, Perú 🇵🇪
+```bash
+# Clonar el repositorio
+git clone https://github.com/chagipe/Portafolio.git
+cd Portafolio
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebastian-hiroshi-begazo-kobayashi-627190211)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chagipe)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sebastianbegazo@gmail.com)
+# Instalar dependencias
+npm install
+
+# Correr en desarrollo
+npm run dev
+```
+
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador 🚀
+
+---
+
+## 💼 Experiencia
+
+```
+🏢 Técnico de Soporte TI     →  Ponte di Pietro Inmobiliaria  (Jun. 2025 - actualidad)
+💻 Desarrollador de Software  →  Autónomo                      (Ene. 2023 - actualidad)
+🔧 Técnico de Asistencia      →  ELYCE S.R.L                   (May. 2019 - Nov. 2021)
+⚡ Automatización con n8n     →  Aprendizaje continuo           (En progreso)
+```
+
+---
+
+## ⚙️ Tech Stack Completo
+
+```
+Frontend    →  React · Next.js · Vue · TailwindCSS · TypeScript
+Backend     →  Node.js · Express · Python
+Base Datos  →  PostgreSQL · pgAdmin
+Herramientas → Vite · Git · n8n · Docker
+Mobile      →  React Native
+```
+
+---
+
+<div align="center">
+
+**Construido con 💜 desde Lima, Perú**
+
+[![GitHub followers](https://img.shields.io/github/followers/chagipe?style=social)](https://github.com/chagipe)
+
+</div>
